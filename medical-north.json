@@ -1,0 +1,229 @@
+[
+  {
+    "id": "shijiazhuang",
+    "medical": {
+      "personal": 2,
+      "unit": null,
+      "flexRate": 6.5,
+      "min": 5955.25,
+      "max": null,
+      "complete": false,
+      "flexFixed": 387.09,
+      "url": "https://www.sjz.gov.cn/zmhd/ylbzjhd/zfxxinfolist.jsp?cid=1259811582187&wid=301",
+      "sources": [
+        "https://ylbzj.sjz.gov.cn/attachments/1/202501/09/%E7%9F%B3%E5%AE%B6%E5%BA%84%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E7%9F%B3%E5%AE%B6%E5%BA%84%E5%B8%82%E8%81%8C%E5%B7%A5%E5%9F%BA%E6%9C%AC%E5%8C%BB%E7%96%97%E4%BF%9D%E9%99%A9%E5%AE%9E%E6%96%BD%E5%8A%9E%E6%B3%95%E7%9A%84%E9%80%9A%E7%9F%A5%EF%BC%88%E7%9F%B3%E6%94%BF%E8%A7%84%E3%80%942024%E3%80%957%E5%8F%B7%EF%BC%8920250109102709301.pdf"
+      ],
+      "note": "2026-07-08市医保官方答复，石医保字〔2026〕9号继续以2021年全口径年工资71463元为最低基数，即5955.25元/月；灵活按6.5%，月387.09。2024办法个人2%，单位基本6.5%不含生育；合并单位费率/附加未齐，单位留空。医保基数不得套养老。"
+    }
+  },
+  {
+    "id": "taiyuan",
+    "medical": {
+      "personal": null,
+      "unit": null,
+      "flexRate": null,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "url": "https://shanxi.chinatax.gov.cn/son/detail/sf-11407-522-1823047",
+      "note": "官方2026年6号通告：2026医保基数公布前，灵活暂按原医保基数按月申报。太原灵活9%、可选生育1%的2026信息仅查到新浪转载，未官方核验，暂不自动套养老基数。",
+      "secondaryUrl": "https://finance.sina.com.cn/wm/2026-07-06/doc-inifvuye8587121.shtml"
+    }
+  },
+  {
+    "id": "hohhot",
+    "medical": {
+      "personal": null,
+      "unit": null,
+      "flexRate": null,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "url": "https://ybj.huhhot.gov.cn/hdjl_0/cjwt/czzg/202507/t20250717_1912597.html",
+      "note": "官方历史2025业务年度（2025-07至2026-06）统账结合灵活医保621.60/月、长照32.72/月、大额100/年，合计7951.84/年；当前2026业务年度金额未核，不冒充最新。",
+      "historicalFlexFixed": 621.6,
+      "historicalYear": "2025业务年度"
+    }
+  },
+  {
+    "id": "shenyang",
+    "medical": {
+      "personal": 2,
+      "unit": 8.6,
+      "flexRate": null,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "url": "https://ybj.shenyang.gov.cn/bsfw/xzzx/202111/P020250630596542769596.pdf",
+      "note": "市医保局2025更新职工指南：个人2%、单位医保生育合并8.6%。医保当前基数未核。灵活官方历史2024按6.8%缴469.2/月，不可冒充2026最新，未自动填。",
+      "sources": [
+        "https://ybj.shenyang.gov.cn/bsfw/xzzx/202203/P020240430665606201821.pdf"
+      ]
+    }
+  },
+  {
+    "id": "changchun",
+    "medical": {
+      "personal": null,
+      "unit": null,
+      "flexRate": null,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "url": "https://jl.gov.cn/gb/2026/zb_430643/szfwj/202610/t20261008_9726702.html",
+      "note": "本次未读到市级医保当前费率/基数。2026省长护制度文件不能替代长春市当前医保缴费金额；保持空值。"
+    }
+  },
+  {
+    "id": "harbin",
+    "medical": {
+      "personal": null,
+      "unit": null,
+      "flexRate": null,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "url": "https://www.hlj.gov.cn/hlj/c108595/202112/c00_30634476.shtml",
+      "note": "官方2021指南历史灵活9.5%建账户、5%住院统筹；2024补贴通知还出现6.5%选项。当前各档及医保基数未核，不能直接套7705养老社平。",
+      "sources": [
+        "https://www.hlj.gov.cn/hlj/c107858/202503/c00_31820426.shtml"
+      ]
+    }
+  },
+  {
+    "id": "nanning",
+    "medical": {
+      "personal": null,
+      "unit": null,
+      "flexRate": null,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "url": "https://guangxi.chinatax.gov.cn/nanning/tzgg/sjtzgg/202602/t20260225_429554.html",
+      "note": "2026官方申报通知确认需缴医保和大额统筹。2024-2026费率通知二级转载为单位6%、灵活8%，官方页面未读取成功，暂不自动计算。长护个人0.15%及灵活0.30%从医保个人账户扣，不能重复加现金。",
+      "sources": [
+        "https://znhd.guangxi.chinatax.gov.cn/xwdt/ztzl/jdxjmqysbf/zcwj_16519/202511/t20251128_425882.html"
+      ],
+      "secondaryUrl": "https://hrlib.ciic-cloud.cn/news/info?id=01hmd82hhcacdbjaqn75m1a2ys"
+    }
+  },
+  {
+    "id": "haikou",
+    "medical": {
+      "personal": 2.15,
+      "unit": null,
+      "flexRate": 4.85,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "flexBase": "social",
+      "flexExtra": 14.8572,
+      "url": "https://ybj.hainan.gov.cn/xxgk/xxgkml/202512/t20251216_3990382.html",
+      "sources": [
+        "https://qionghai.hainan.gov.cn/zfxxgkzl/bm/sbj/gkml/202406/P020240607393659031188.pdf",
+        "https://ybj.hainan.gov.cn/xxgk/zcfg/202203/t20220329_3162874.html",
+        "https://chinajob.mohrss.gov.cn/c/2023-10-11/388450.shtml"
+      ],
+      "note": "职工基本医保个人2%+长护0.15%，此处2.15%包含长护。灵活2024-07至2026-12基本原5%，2026减0.15为4.85%，基本医保基数100%全口径，长护0.30%仅按60%全口径。flexExtra14.8572=8254×60%×0.30%，基于2026新公布8254情景；2024官方规定缴费基数发布次月起生效，2026新标准10月公布预计11月起，10月实缴请核旧标准。单位合并生育未核。"
+    }
+  },
+  {
+    "id": "guiyang",
+    "medical": {
+      "personal": 2,
+      "unit": null,
+      "flexRate": null,
+      "min": 5901.4,
+      "max": 22130.25,
+      "complete": false,
+      "flexAge35": {
+        "underOrEqual": 250.81,
+        "over": 324.58,
+        "ageRule": "completed"
+      },
+      "url": "https://www.kaiyang.gov.cn/zmhd/rdhy/202608/t20260811_90720783.html",
+      "sources": [
+        "https://www.guizhou.gov.cn/zwgk/zfxxgk/zc/gz/gys/202111/W020250516544967211913.pdf"
+      ],
+      "note": "2026-08起官方医保下限5901.4（80%）、上限22130.25；灵活固定基数7376.75，35周岁及以下250.81/月，35周岁以上324.58/月，按周岁判断。个人2%见政府规章，单位现行合并及大额费用未齐，不把灵活金额额外添加未知费用。"
+    }
+  },
+  {
+    "id": "lhasa",
+    "medical": {
+      "personal": null,
+      "unit": null,
+      "flexRate": 9,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "url": "https://ylbzj.xizang.gov.cn/zwgk/zcwj/202201/t20220118_280211.html",
+      "sources": [
+        "https://mzsw.lasa.gov.cn/mzsw/rdhy/202310/58bc860a18c041e6bd032d94f0ac066a.shtml"
+      ],
+      "note": "2022起自治区官方灵活医保9%，2023拉萨12345确认基数为上年度全区职工月平均工资。当前2026医保具体数及单位个人缴费未核，不自动套养老基数。"
+    }
+  },
+  {
+    "id": "lanzhou",
+    "medical": {
+      "personal": 2,
+      "unit": 9,
+      "flexRate": 5.4,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "url": "https://ybj.lanzhou.gov.cn/col/col25729/index.html",
+      "sources": [
+        "https://law.esnai.cn/view/229447/"
+      ],
+      "note": "医保官方政策指南：企业个人2%单位9%，机关个人2%单位8.35%；灵活基本5.4%（可选含生育5.75%）以100%社平，另大额0.5%全额本人。参考396.25为7338×5.4%基本部分，7338及医保范围4403–22014仅二级转载2026申报通告，金额当前性待官方复核；勿把2026养老7542直接套医保。基本部分以外大额另7338×0.5%=36.69/月，当前未自动添加。",
+      "unitGovernment": 8.35,
+      "year": 2026,
+      "secondaryBase": true
+    }
+  },
+  {
+    "id": "xining",
+    "medical": {
+      "personal": null,
+      "unit": null,
+      "flexRate": null,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "url": "https://ybj.qinghai.gov.cn/20260312/c5692988237a4c6bb623d53fd9fd8d9c/c.html",
+      "note": "找到2026-03-12省医保局转载西宁医保费率问答，但正文仅为图片，本次未读到数值。二级2025转载为8%建账户/4.2%不建账户，暂不自动使用。"
+    }
+  },
+  {
+    "id": "yinchuan",
+    "medical": {
+      "personal": 2,
+      "unit": 8.8,
+      "flexRate": 10,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "url": "https://www.yinchuan.gov.cn/xxgk/bmxxgkml/ycsylbzj/xxgkml_38315/bmwj_38322/202207/t20220728_3638505.html",
+      "note": "2022官方文件：单位8.8%含生育、个人2%，新灵活按申报收入10%，已参保灵活按上年度在岗月工资60%×10%×12年缴。2026当前医保基数/参保类型、长护等未齐，不能直接套养老基数。",
+      "year": 2022
+    }
+  },
+  {
+    "id": "urumqi",
+    "medical": {
+      "personal": 2,
+      "unit": null,
+      "flexRate": null,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "url": "https://www.wlmq.gov.cn/wlmqs/c119366/202003/ef9dd55c7e7c439c9d0bc4710e04f073.shtml",
+      "sources": [
+        "https://www.wlmq.gov.cn/wlmqs/c120907/202608/a4bfb3bc46184458a4288e76ec47cde7.shtml"
+      ],
+      "note": "2020官方临时减征通知确认个人2%不变；单位原合并9.8%及灵活9%/11%未找到当前数值官方正文。2026-08新灵活及断保重参须同步参加生育，费率及基数待核，保持空值。"
+    }
+  }
+]

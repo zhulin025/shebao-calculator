@@ -1,0 +1,217 @@
+[
+  {
+    "id": "shanghai",
+    "medical": {
+      "personal": 2.0,
+      "unit": 9.0,
+      "flexRate": 10.0,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "url": "https://shanghai.chinatax.gov.cn/zcfw/zcfgk/sbf/202603/t479836.html",
+      "note": "本人申报基数，按上海社保上下限；灵活医保并非固定金额；单位失业费率最新期限；长护及其他附加费是否需额外现金"
+    },
+    "unemployment": {
+      "personal": 0.5,
+      "unit": null,
+      "flex": 0,
+      "url": "https://www.shanghai.gov.cn/nw17239/20260913/37398bbb63ad4fffa64e0b9deb0f6afc.html",
+      "note": "上海官方2026指南灵活仅养老、医保；单位失业最新期限未核验。"
+    },
+    "healthYears": {
+      "male": 15,
+      "female": 15,
+      "note": "需达到法定退休条件，并由经办认定视同缴费等年限。",
+      "url": "https://wsb.sh.gov.cn/zwgk/jggk/jyta/20231215/8ccc32aab7c94a4389fd778479a649d3.html"
+    }
+  },
+  {
+    "id": "guangzhou",
+    "medical": {
+      "personal": 2.0,
+      "unit": 6.85,
+      "flexRate": 8.0,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "url": "https://www.gz.gov.cn/gfxwj/sbmgfxwj/gzsylbzj/content/post_8689834.html",
+      "note": "医保基数上下限为广州上上年度全口径工资 60%~300%，与养老不必相同；2026 数值待核；2026 医保基数上下限；失业费率和基数；长护个人缴费是否另收"
+    },
+    "unemployment": {
+      "personal": null,
+      "unit": null,
+      "flex": null,
+      "url": "https://www.gz.gov.cn/gfxwj/sbmgfxwj/gzsylbzj/content/post_8689834.html",
+      "note": "灵活失业不可把未核验默认为0；公务员不套企业失业费率。"
+    },
+    "healthYears": {
+      "male": null,
+      "female": null,
+      "note": "2014 年前参保存在累计 10 年、之后 15 年历史口径；广东到 2030-01-01 统一为男 30 年、女 25 年，并核验广州本地缴费年限。过渡期按首次参保时间和退休年份认定，不能固定套 15 年。",
+      "url": "https://www.gz.gov.cn/gz12345/hdjl/caseDetail.do?instId=0125040813125588701"
+    }
+  },
+  {
+    "id": "wuhan",
+    "medical": {
+      "personal": 2.0,
+      "unit": null,
+      "flexRate": 4.8,
+      "min": 4552,
+      "max": 22761,
+      "complete": false,
+      "url": "https://www.wuhan.gov.cn/gwfbpt/sbm/sylbzj_79517/202311/t20231128_2308382.shtml",
+      "note": "职工医保本人基数；灵活医保固定使用全省年度基准，不随养老档次改变；单位生育费率；长护及其他附加费是否另收；已核验单位基本医保8%，单位合并生育总额未齐。",
+      "personalFixed": 7,
+      "flexExtra": 7,
+      "flexBase": "social"
+    },
+    "unemployment": {
+      "personal": 0.3,
+      "unit": 0.7,
+      "flex": null,
+      "url": "https://rsj.wuhan.gov.cn/zwgk_17/fdzdgknr/qtzdgknr_71165/jytabl_71167/202608/t20260828_2839949.html",
+      "note": "灵活失业不可把未核验默认为0；公务员不套企业失业费率。"
+    },
+    "healthYears": {
+      "male": 30,
+      "female": 25,
+      "note": "退休后仍缴大额医疗保险；不满年限可按规定一次性补足，灵活人员也可继续按月缴费。；实际缴费至少10年。",
+      "url": "https://www.wuhan.gov.cn/gwfbpt/sbm/sylbzj_79517/202311/t20231128_2308340.shtml"
+    }
+  },
+  {
+    "id": "tianjin",
+    "medical": {
+      "personal": 2.0,
+      "unit": 10.5,
+      "flexRate": 8.5,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "url": "https://www.tj.gov.cn/zwgk/szfgb/xqk/2026/12/bmgfxwj/202607/t20260703_7329233.html",
+      "note": "按天津规定医保缴费基数，不应直接套养老基数；2026 上下限和灵活基数待核；医保基数；大额救助具体缴费；长期护理保险具体缴费；失业费率"
+    },
+    "unemployment": {
+      "personal": null,
+      "unit": null,
+      "flex": null,
+      "url": "https://www.tj.gov.cn/zwgk/szfgb/xqk/2026/12/bmgfxwj/202607/t20260703_7329233.html",
+      "note": "灵活失业不可把未核验默认为0；公务员不套企业失业费率。"
+    },
+    "healthYears": {
+      "male": 25,
+      "female": 20,
+      "note": "医保退休后仍按规定缴纳大额救助和长护费；困难企业有其他医保模式。；实际缴费至少5年。",
+      "url": "https://www.tj.gov.cn/sy/tjxw/202312/t20231209_6477162.html"
+    }
+  },
+  {
+    "id": "jinan",
+    "medical": {
+      "personal": 2.0,
+      "unit": null,
+      "flexRate": 7,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "url": "https://www.jinan.gov.cn/col2610/art/2019/art_2610_3391425.html",
+      "note": "医保依全省公布工资基数调整；灵活基数不低于全省上年度全口径工资 60%，具体 2026 数值待核；医保最新基数；生育单位费率；长护筹资是否另收；默认不建个人账户7%+10元；可选建个人账户9%，10元大额由账户扣，不能重复加现金。职工大额也是个人账户扣10元。",
+      "flexExtra": 10
+    },
+    "unemployment": {
+      "personal": 0.3,
+      "unit": 0.7,
+      "flex": null,
+      "url": "https://www.jinan.gov.cn/col/col118356/art/2026/art_57a3d7ef5585481993bf0ffc8fc354b4.html",
+      "note": "灵活失业不可把未核验默认为0；公务员不套企业失业费率。"
+    },
+    "healthYears": {
+      "male": 30,
+      "female": 25,
+      "note": "省内跨统筹医保转移取消转入地实际缴费限制；省外转入仍核验本地要求。累计包含实际及认定视同年限。",
+      "url": "https://www.jinan.gov.cn/jpolicy/jpolicypub/jpolicy_file/filedata/2025/11/18/1a4b4bb5f2f54669bdd17f1fc7c0f666.pdf"
+    }
+  },
+  {
+    "id": "nanjing",
+    "medical": {
+      "personal": 2.0,
+      "unit": 7.8,
+      "flexRate": 8.0,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "url": "https://gtm-cn-2r42yzjvn0s.jiangsu.chinatax.gov.cn/art/2025/3/5/art_8539_372078.html",
+      "note": "按江苏医保社保基数，灵活可在规定范围选档；2026 最新基数待核；2026 最新医保基数；长护筹资是否另收；2026 灵活失业费率与参保选择；单位医保7%+单列生育0.8%=7.8%；灵活8%+10元。2026官方说7%长期执行，不是合并总费率。",
+      "personalFixed": 10,
+      "flexExtra": 10
+    },
+    "unemployment": {
+      "personal": 0.5,
+      "unit": 0.5,
+      "flex": null,
+      "url": "https://gtm-cn-2r42yzjvn0s.jiangsu.chinatax.gov.cn/art/2025/3/5/art_8539_372078.html",
+      "note": "灵活失业不可把未核验默认为0；公务员不套企业失业费率。"
+    },
+    "healthYears": {
+      "male": 25,
+      "female": 20,
+      "note": "需核验实际缴费年限；医保达到年限仍需办理退休。；实际缴费至少10年。",
+      "url": "https://www.nanjing.gov.cn/xxgkn/zfgb/201812/t20181207_1290495.html"
+    }
+  },
+  {
+    "id": "hangzhou",
+    "medical": {
+      "personal": 2.0,
+      "unit": 9.5,
+      "flexRate": 9.5,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "url": "https://zfgb.hangzhou.gov.cn/11/105220253/t116220253054/518112.shtml",
+      "note": "灵活医保固定使用 2026 公布基数 4986，不能随养老档次改变；职工基数待核；2026 职工医保基数；2026 失业费率期限；长护与大病账户划扣规则最新官方全文；4986×9.5%=473.67。大病与长护账户划扣不应重复加现金。",
+      "flexFixed": 473.67
+    },
+    "unemployment": {
+      "personal": null,
+      "unit": null,
+      "flex": null,
+      "url": "https://zfgb.hangzhou.gov.cn/11/105220253/t116220253054/518112.shtml",
+      "note": "灵活失业不可把未核验默认为0；公务员不套企业失业费率。"
+    },
+    "healthYears": {
+      "male": 20,
+      "female": 20,
+      "note": "2026 杭州政协报道确认医保退休最低需 20 年，具体视同与转移认定按经办。",
+      "url": "https://www.hzzx.gov.cn/cshz/content/2026-05/28/content_9230386.htm"
+    }
+  },
+  {
+    "id": "chengdu",
+    "medical": {
+      "personal": null,
+      "unit": null,
+      "flexRate": null,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "url": "https://rst.hunan.gov.cn/xxgk/gzdt/zwdt/201601/t20160114_3450432.html",
+      "note": "；截至 2026-10-12 成都医保费率、基数、补充医疗、生育、长护与失业均未完成官方核验；四川省本级与成都市医保不能混用"
+    },
+    "unemployment": {
+      "personal": null,
+      "unit": null,
+      "flex": null,
+      "url": "https://rst.hunan.gov.cn/xxgk/gzdt/zwdt/201601/t20160114_3450432.html",
+      "note": "灵活失业不可把未核验默认为0；公务员不套企业失业费率。"
+    },
+    "healthYears": {
+      "male": null,
+      "female": null,
+      "note": "历史成都口径为本地连续 15 年或累计 20 年，涉及 2009 年前参保等例外；2026 最新官方未核，暂只提示核验。",
+      "url": "https://rst.hunan.gov.cn/xxgk/gzdt/zwdt/201601/t20160114_3450432.html"
+    }
+  }
+]

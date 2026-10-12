@@ -1,0 +1,138 @@
+[
+  {
+    "id": "changsha",
+    "medical": {
+      "personal": 2,
+      "personalFixed": null,
+      "unit": 8.7,
+      "flexRate": 8.7,
+      "flexBase": "min",
+      "flexExtra": 15,
+      "min": 4106,
+      "max": 20529,
+      "complete": false,
+      "url": "https://ybj.hunan.gov.cn/ybj/first113541/f4113601/202608/t20260824_34049618.html",
+      "note": "2026-10-01 至 2027-09-30；单位8.7%含生育0.7%。灵活医保按下限4106×8.7%+15=372.22元/月。单位职工大病15元的账户扣缴/额外现金分担尚未核完整，长护是否另缴待核。"
+    },
+    "healthYears": {
+      "male": 30,
+      "female": 25,
+      "note": "2026年湖南实际缴费至少13年，2027年14年、2028年起15年。退休后大病保险仍缴。",
+      "url": "https://ybj.hunan.gov.cn/ybj/first113541/f4113601/202608/t20260803_34038880.html"
+    }
+  },
+  {
+    "id": "xian",
+    "medical": {
+      "personal": 2,
+      "personalFixed": null,
+      "unit": null,
+      "flexRate": 8,
+      "flexFixed": 399.2,
+      "flexExtra": 8,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "url": "https://xdz.xa.gov.cn/zwgk/jbmsbz/shbz/1990608250116059137.html",
+      "note": "2026灵活医保基数固定4990，基本399.2+大额8=407.2元/月；全年一次缴4886.4元。职工个人2%已核，单位基本医保6%（不含生育）从2025-12-01执行12个月；单位含生育总比例与2026职工基数未核，保持null。费率来源 https://xdz.xa.gov.cn/zwgk/jbmsbz/shbz/1995686261241171969.html"
+    }
+  },
+  {
+    "id": "fuzhou",
+    "medical": {
+      "personal": 2,
+      "personalFixed": null,
+      "unit": null,
+      "flexRate": 10,
+      "flexBase": "min",
+      "flexExtra": null,
+      "min": 4579,
+      "max": 22893,
+      "complete": false,
+      "url": "https://ybj.fuzhou.gov.cn/zwgk/tzgg/202607/t20260701_5341143.htm",
+      "note": "医保基数2026-07-01起：4579~22893，灵活固定下限；官方2025政务指南确认灵活10%含长护，2026当前部分医疗457.90/月。职工医保单位基本8%（2025指南），单位生育总额和大额额外收费待核。比例来源 https://www.fuzhou.gov.cn/nrrh/fzsrlzyhshbzj/202509/t20250921_5080822.htm 和 https://www.fuzhou.gov.cn/zwgk/zdlyxxgk/shbz/yilbx/202509/P020251009652403112624.pdf"
+    }
+  },
+  {
+    "id": "hefei",
+    "medical": {
+      "personal": 2,
+      "personalFixed": null,
+      "unit": 6.4,
+      "flexRate": 6,
+      "flexBase": "min",
+      "flexExtra": null,
+      "min": 4354,
+      "max": 21772,
+      "complete": false,
+      "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202304/t20230426_477778.html",
+      "note": "2023官方《合肥市基本医疗保险办法》费率：职工个人2%，企业单位6.4%，机关事业单位6.2%，灵活下限6%不建账户；最新降费变更尚未核。2026社保基数4354~21772、灵活医保统一下限，执行2026-01~12，官方 https://rsj.huaibei.gov.cn/gzdt/gfxwj/58052711.html 。长护、大额附加是否需另付现金待核。",
+      "unitCivil": 6.2
+    }
+  },
+  {
+    "id": "zhengzhou",
+    "medical": {
+      "personal": 2,
+      "personalFixed": null,
+      "unit": 9,
+      "flexRate": 10,
+      "min": null,
+      "max": null,
+      "complete": false,
+      "url": "https://www.zhengzhou.gov.cn/interview/10191846.jhtml",
+      "note": "2026-08政府在线问答：企业职工单位9%个人2%，机关事业医保含生育合计10%、单位8%个人2%；灵活以社平80%固定基数×10%。2026医保社平和基数上下限未核，不能用养老社平直接代替；大病及长护费用未齐。",
+      "unitCivil": 8
+    }
+  },
+  {
+    "id": "guangzhou",
+    "medical": {
+      "personal": 2,
+      "unit": 6.85,
+      "flexRate": 8,
+      "min": 6234,
+      "max": 31170,
+      "complete": false,
+      "url": "https://www.gz.gov.cn/gfxwj/sbmgfxwj/gzsylbzj/content/post_8689834.html",
+      "note": "2026费率官方核验：单位医保6%+生育0.85%，个人2%，灵活8%。基数6234~31170由广州税务官方栏目2026-01-26链接指向微信但正文无法访问，数字按广州总工会及广州税务转载交叉参考，尚非已完整核验。医保大额从统筹列支不另缴；長护及失业项待核。基数参考 https://www.gzgh.org.cn/article?id=30655 和 https://zc.51shebao.com/detail/840540 ，官方栏目 https://guangdong.chinatax.gov.cn/gdsw/gzsw_rdwd/city_list.shtml"
+    }
+  },
+  {
+    "id": "chengdu",
+    "medical": {
+      "personal": 2,
+      "unit": 8.3,
+      "flexRate": 10.3,
+      "flexBase": "social",
+      "flexSocialFactor": 0.8,
+      "min": 4699,
+      "max": 23493,
+      "complete": false,
+      "url": "https://m.thepaper.cn/baijiahao_34113772",
+      "note": "2026-10属期起：职工4699~23493；灵活统账缴费基数6265（社平7831×80%四舍五入至元），单建7831。官方原文未直接取得，澎湃转载成都医保通知+成都本地宝参考。费率二级来源：个人2%、单位6.75%基本+0.8%生育+0.75%大病=8.3%；默认灵活统账含生育9.55%+大病0.75%=10.3%，也可不含生育9.5%，或单建4%。长护额外分担未齐，均为partial估算。费率参考 https://www.sohu.com/a/1077887610_498271 ，不可混用四川省本级11%/7.5%。"
+    }
+  },
+  {
+    "id": "kunming",
+    "medical": {
+      "personal": 2,
+      "personalFixed": 1,
+      "unit": null,
+      "flexRate": 7,
+      "flexBase": "social",
+      "flexExtra": 45.03,
+      "min": 4403,
+      "max": 22017,
+      "complete": false,
+      "url": "https://www.yn.gov.cn/hdjl/msgq/202608/t20260829_330317.html",
+      "note": "2026-09-01医保基数4403~22017官方核验；灵活社平基数7339及大额45.03/月为昆明医保转载参考。费率7%是2023昆明医保通知历史口径，统账灵活7%，单建5.2%含门诊共济长护；单位基本7%不含生育，合并总额未核。职工个人2%中的0.2%长护从账户扣不得另加现金。2026现行费率未完成确认，不可标为精算。历史费率官方医保通知转载 https://m.kunming.cn/zhuanti/c/2023-02-08/13779496.shtml ，大额参考 https://www.sohu.com/a/1078824546_99924238"
+    },
+    "healthYears": {
+      "male": 30,
+      "female": 25,
+      "note": "昆明累计缴费至少10年，退休后基本医保免缴仍按规定缴大额；实际/视同认定由经办确认。",
+      "url": "https://www.kmrd.gov.cn/c/2022-04-14/524108.shtml"
+    }
+  }
+]
