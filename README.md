@@ -2,6 +2,10 @@
 
 本地网页应用，覆盖大陆27座省会/自治区首府及4座直辖市，可切换普通职工、公务员、灵活就业身份。
 
+在线访问：https://shebao.liuwa.xyz
+
+公开源码：https://github.com/zhulin025/shebao-calculator
+
 ## 打开
 
 ```bash
